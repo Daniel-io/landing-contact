@@ -1,0 +1,135 @@
+.contenedor .header {
+    display: flex;
+    align-items: center;
+    padding: 40px 100px;
+  }
+  
+  
+  
+  .header-one {
+    margin-right: 100px;
+  }
+  
+  .imagen-person {
+    width: 200px;
+    height: auto;
+  }
+  
+  .content h1 {
+    text-align: left !important;
+    font-size: 40px !important;
+    color: #2C2A29 !important;
+  }
+  
+  .content h1 span {
+    color: #00BF6F !important;
+    font-weight: bold;
+  }
+  
+  .header-two h3 {
+    font-size: 16px !important;
+    color: #2C2A29 !important;
+    margin-bottom: 10px;
+    font-weight: 100;
+  }
+  
+  .header-two h2 {
+    margin-bottom: 10px;
+  }
+  
+  .numero img,
+  .correo img {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 507px ) {
+    
+    .numero img,
+    .correo img {
+      width: 20px;
+      margin-right: 3px;
+    }
+    
+  }
+  .numero,
+  .correo {
+    font-size: 18px;
+  }
+  
+  .numero {
+    margin-bottom: 10px;
+  }
+  
+  .simulador a {
+    background-color: #F6863C !important;
+    border-radius: 0 !important;
+  }
+  
+  .simulador a:hover {
+    color: #F6863C !important;
+    border-color: 1px solid #F6863C !important;
+    border-radius: 0 !important;
+    background-color: white !important;
+  }
+  
+  
+  
+  
+    
+  .separador-1 {
+    padding: 40px 50px 40px 100px !important;
+  }
+  
+  .separador-2 {
+    padding: 40px 100px !important;
+  }
+  
+  .simulador a {
+    display: inline-block;
+  }
+  
+  .separador-1 p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .imagen-person {
+    border-left: 5px solid #F6863C;
+    border-bottom: 5px solid #F6863C;
+  }
+  
+  
+  
+  @media (max-width: 767px) {
+    
+    .contenedor .header {
+      flex-direction: column;
+      padding: 40px 20px 20px 20px;
+    }
+    
+    .contenedor {
+      margin-left: 40px !important;
+      margin-right: 40px !important;
+    }
+    
+    .header-one {
+      margin: 0;
+    }
+    
+    .separador-1 {
+      padding:  20px !important;
+      text-align: center;
+    }
+    
+    .header-two h2 {
+      font
+    }
+    
+    .numero,
+    .correo {
+      font-size: 13px;
+      white-space: nowrap;
+    }
+    
+  }
